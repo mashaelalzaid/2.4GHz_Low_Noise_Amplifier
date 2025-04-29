@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ascii'?>
+<projectsettings version="2">
+  <leftsidedock version="1">
+    <collapsednodes />
+  </leftsidedock>
+  <dashboard version="1">
+    <verticalheaders>
+      <header name="Nominal" />
+    </verticalheaders>
+    <horizontalheaders>
+      <header name="All_Tests" size="150" />
+      <header name="CScascodetb" size="150" />
+      <header name="CScascodetb_1" size="150" />
+    </horizontalheaders>
+    <disabledcells />
+    <hiddenheaders />
+  </dashboard>
+</projectsettings>

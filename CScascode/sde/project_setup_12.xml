@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='ascii'?>
+<solido-project>
+  <version>12</version>
+  <software-version>2024.3</software-version>
+  <project-type>native</project-type>
+  <project-id>/home/cdt/SiemensEDA/CustomIC_2024.3/Designs/RingVCO/LNA/CScascode/sde</project-id>
+  <project-name>sde_3</project-name>
+  <design-id />
+  <all-design-ids />
+  <local_variation_scale>1.0</local_variation_scale>
+  <global_variation_scale>1.0</global_variation_scale>
+  <extra_design_variables />
+  <cell-configuration-set>default</cell-configuration-set>
+  <testbenches>
+    <testbench enabled="True" gid="0" id="CScascode" is-fake="False">CScascode</testbench>
+    <testbench enabled="True" gid="1" id="CScascode_1" is-fake="False">CScascode_1</testbench>
+    <testbench enabled="True" gid="2" id="CScascode_2" is-fake="False">CScascode_2</testbench>
+    <testbench enabled="True" gid="3" id="CScascode_3" is-fake="False">CScascode_3</testbench>
+    <testbench enabled="True" gid="4" id="CScascode_4" is-fake="False">CScascode_4</testbench>
+    <testbench enabled="True" gid="5" id="Test" is-fake="False">Test</testbench>
+    <testbench enabled="True" gid="6" id="Test_1" is-fake="False">Test_1</testbench>
+  </testbenches>
+  <testbench-dependencies>
+    <simulation-instance is_original="True" name="CScascode" testbench-name="CScascode" />
+    <simulation-instance is_original="True" name="CScascode_1" testbench-name="CScascode_1" />
+    <simulation-instance is_original="True" name="CScascode_2" testbench-name="CScascode_2" />
+    <simulation-instance is_original="True" name="CScascode_3" testbench-name="CScascode_3" />
+    <simulation-instance is_original="True" name="CScascode_4" testbench-name="CScascode_4" />
+    <simulation-instance is_original="True" name="Test" testbench-name="Test" />
+    <simulation-instance is_original="True" name="Test_1" testbench-name="Test_1" />
+  </testbench-dependencies>
+  <testbench-environmental-points>
+    <testbench id="CScascode">
+      <environmental-point name="CScascode" />
+    </testbench>
+    <testbench id="CScascode_1">
+      <environmental-point name="CScascode" />
+    </testbench>
+    <testbench id="CScascode_2">
+      <environmental-point name="CScascode" />
+    </testbench>
+    <testbench id="CScascode_3">
+      <environmental-point name="CScascode" />
+    </testbench>
+    <testbench id="CScascode_4">
+      <environmental-point name="CScascode_4" />
+    </testbench>
+    <testbench id="Test">
+      <environmental-point name="CScascode_4" />
+    </testbench>
+    <testbench id="Test_1">
+      <environmental-point name="CScascode_4" />
+    </testbench>
+  </testbench-environmental-points>
+  <hidden-corner-attributes />
+  <temp-env-var-meta-name>Circuit temperature</temp-env-var-meta-name>
+  <env-var-metas>
+    <meta group_name="" is_categorical="False" is_discrete="False" is_group="False" is_integer="False" is_locked="True" name="" name-case-sensitive="True" params="" strip_quotes="False" typical_value="" value-case-sensitive="True" />
+    <meta group_name="" is_categorical="False" is_discrete="False" is_group="False" is_integer="False" is_locked="True" name="Circuit temperature" name-case-sensitive="True" params="" strip_quotes="False" typical_value="27" value-case-sensitive="True">
+      <value>27</value>
+    </meta>
+  </env-var-metas>
+  <matched-groups />
+  <digital-corners />
+  <disable-all-tests-group>False</disable-all-tests-group>
+  <model-classifier>Variation-Designer</model-classifier>
+  <netlist-files>
+    <design-file>/home/cdt/simulation/LNA/CScascode/sde/CScascode/netlist/input.scs</design-file>
+    <design-file>/home/cdt/simulation/LNA/CScascode/sde/CScascode_1/netlist/input.scs</design-file>
+    <design-file>/home/cdt/simulation/LNA/CScascode/sde/CScascode_2/netlist/input.scs</design-file>
+    <design-file>/home/cdt/simulation/LNA/CScascode/sde/CScascode_3/netlist/input.scs</design-file>
+    <design-file>/home/cdt/simulation/LNA/CScascode/sde/CScascode_4/netlist/input.scs</design-file>
+    <design-file>/home/cdt/simulation/LNA/CScascode/sde/Test/netlist/design.scs</design-file>
+    <design-file>/home/cdt/simulation/LNA/CScascode/sde/Test/netlist/input.scs</design-file>
+    <design-file>/home/cdt/simulation/LNA/CScascode/sde/Test_1/netlist/design.scs</design-file>
+    <design-file>/home/cdt/simulation/LNA/CScascode/sde/Test_1/netlist/input.scs</design-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/bip.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/cap.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/generic_250nm.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/global.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/mos.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/nmos.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/nmos25.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/nmos33.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/pmos.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/pmos25.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/pmos33.scs</model-file>
+    <model-file>/home/cdt/SiemensEDA/CustomIC_2024.3/Process/Generic_250nm/Models/afs/res.scs</model-file>
+  </netlist-files>
+</solido-project>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='ascii'?>
+<solido-true-corners>
+  <version>13</version>
+  <true-corner batching_mode="None" color="#e6194b" enabled="True" id="0" is-shown="True" name="c" origin="User-generated">
+    <enabled-combinations-indexes />
+    <local-process-point />
+    <global-process-point />
+    <testbench name="lna_tb" />
+    <testbench name="lna_tb_1" />
+    <testbench name="lna_tb_2" />
+    <testbench name="lna_tb_3" />
+    <testbench name="lna_tb_4" />
+    <process-corners-setup block="/">
+      <process-corners-setup-version>1</process-corners-setup-version>
+      <setup-mode value="per_device_type" />
+      <track-combinations value="False" />
+      <per-device-setup-data>
+        <version>3</version>
+      </per-device-setup-data>
+      <one-file-per-corner-model-sets>
+        <solido-digital-corners>
+          <version>1</version>
+        </solido-digital-corners>
+      </one-file-per-corner-model-sets>
+      <custom-digital-corners>
+        <solido-digital-corners>
+          <version>1</version>
+        </solido-digital-corners>
+      </custom-digital-corners>
+    </process-corners-setup>
+  </true-corner>
+  <params>
+    <param>
+      <value>
+        <struct>
+          <member>
+            <name>VERSION_1</name>
+            <value>
+              <struct>
+                <member>
+                  <name>environment_variable_order</name>
+                  <value>
+                    <array>
+                      <data>
+</data>
+                    </array>
+                  </value>
+                </member>
+                <member>
+                  <name>app_id</name>
+                  <value>
+                    <int>102</int>
+                  </value>
+                </member>
+                <member>
+                  <name>corner_group_column_widths</name>
+                  <value>
+                    <struct>
+                      <member>
+                        <name>c</name>
+                        <value>
+                          <int>108</int>
+                        </value>
+                      </member>
+                    </struct>
+                  </value>
+                </member>
+                <member>
+                  <name>test_config_name</name>
+                  <value>
+                    <string>All_Tests</string>
+                  </value>
+                </member>
+              </struct>
+            </value>
+          </member>
+        </struct>
+      </value>
+    </param>
+  </params>
+</solido-true-corners>

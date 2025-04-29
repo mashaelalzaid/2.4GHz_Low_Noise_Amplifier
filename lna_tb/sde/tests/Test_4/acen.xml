@@ -1,0 +1,3237 @@
+<!DOCTYPE SchemaDB_XML>
+<SchemaDB_XML version="1.0" target="afs">
+ <Ac category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweepvarBox>
+   <Sweep_Variable select="Frequency">
+    <Frequency>
+     <placeHolder value="True"/>
+    </Frequency>
+    <Temperature>
+     <tfreq value="void"/>
+    </Temperature>
+    <Design_Variable>
+     <dfreq value="void"/>
+     <variablename value="void"/>
+    </Design_Variable>
+    <Component_Parameter>
+     <cfreq value="void"/>
+     <comp value="void"/>
+     <compparam value="void"/>
+    </Component_Parameter>
+    <Model_Parameter>
+     <mfreq value="void"/>
+     <mod value="void"/>
+     <modelparam value="void"/>
+    </Model_Parameter>
+    <None>
+     <nfreq value="void"/>
+    </None>
+   </Sweep_Variable>
+  </sweepvarBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <options>
+   <State_file>
+    <readns value="void"/>
+    <useprevic value="void"/>
+    <prevoppoint value="void"/>
+   </State_file>
+   <Initial_Condition>
+    <force value="void"/>
+    <skipdc value="void"/>
+    <readforce value="void"/>
+   </Initial_Condition>
+   <Output>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </Output>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <Additional>
+    <_addlArgs value="void"/>
+   </Additional>
+  </options>
+ </Ac>
+ <Acmatch category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <outputnodesBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputnodesBox>
+  <miscBox>
+   <threshold value="void"/>
+   <where value="void"/>
+  </miscBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <options>
+   <OutputBox>
+    <groupby value="void"/>
+   </OutputBox>
+   <initialConditionBox>
+    <skipdc value="void"/>
+    <restart value="void"/>
+    <useprevic value="void"/>
+   </initialConditionBox>
+   <Report_files>
+    <where value="void"/>
+    <file value="void"/>
+   </Report_files>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <AdditionalBox>
+    <additionalParams value="void"/>
+   </AdditionalBox>
+  </options>
+ </Acmatch>
+ <AdditionalCommand category="Simulator options" id="0">
+  <section value="DesignNetlist"/>
+  <beforeSection value="True"/>
+  <cmd value="void"/>
+ </AdditionalCommand>
+ <AdditionalCommand category="Simulator options" id="1">
+  <section value="DesignNetlist"/>
+  <beforeSection value="False"/>
+  <cmd value="void"/>
+ </AdditionalCommand>
+ <AdditionalCommand category="Simulator options" id="2">
+  <section value="End"/>
+  <beforeSection value="True"/>
+  <cmd value="void"/>
+ </AdditionalCommand>
+ <AnalysisOrder category="Analyses" id="0" enabled="false">
+  <order values="Tran;Dc;Dcmatch;Ac;Acmatch;Noise;Sp;Stb;Xf;Hb;HbAc;HbNoise;HbSp;HbStb;HbXf;Pss;Pstb;Pxf;Pnoise;Pac"/>
+ </AnalysisOrder>
+ <Dc category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <opptBox>
+   <name value="void"/>
+   <fileName value="void"/>
+   <analysis_name value="void"/>
+   <op value="void"/>
+   <hysteresis value="void"/>
+  </opptBox>
+  <sweepvarBox>
+   <Sweep_Variable>
+    <Temperature>
+     <tparam value="void"/>
+    </Temperature>
+    <Design_Variable>
+     <variablename value="void"/>
+    </Design_Variable>
+    <Component_Parameter>
+     <comp value="void"/>
+     <compparam value="void"/>
+    </Component_Parameter>
+    <Model_Parameter>
+     <mod value="void"/>
+     <modelparam value="void"/>
+    </Model_Parameter>
+   </Sweep_Variable>
+  </sweepvarBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <optionStart value="void"/>
+  <options>
+   <State_file>
+    <readns value="void"/>
+    <write value="void"/>
+    <useprevic value="void"/>
+   </State_file>
+   <Initial_Condition>
+    <force value="void"/>
+    <readforce value="void"/>
+   </Initial_Condition>
+   <Output>
+    <save value="void"/>
+    <nestlvl value="void"/>
+    <oppoint value="void"/>
+    <file value="void"/>
+   </Output>
+   <Convergence>
+    <homotopy value="void"/>
+    <homotopy_solidosim value="void"/>
+    <maxiters value="void"/>
+    <maxsteps value="void"/>
+   </Convergence>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <Additional>
+    <additionalParams value="void"/>
+   </Additional>
+  </options>
+ </Dc>
+ <Dcmatch category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <outputnodesBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputnodesBox>
+  <miscBox>
+   <threshold value="void"/>
+   <statistics value="void"/>
+   <variations value="void"/>
+  </miscBox>
+  <options>
+   <State_fileBox>
+    <readns value="void"/>
+    <useprevic value="void"/>
+   </State_fileBox>
+   <OutputBox>
+    <save value="void"/>
+    <nestlvl value="void"/>
+    <oppoint value="void"/>
+   </OutputBox>
+   <ConvergenceBox>
+    <prevoppoint value="void"/>
+    <restart value="void"/>
+   </ConvergenceBox>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <AdditionalBox>
+    <additionalParams value="void"/>
+   </AdditionalBox>
+  </options>
+ </Dcmatch>
+ <Environment category="Simulator Environment" id="0">
+  <stopList values="spectre"/>
+  <viewList values="spectre;schematic;spice;veriloga"/>
+  <netlist value="void"/>
+  <lib value="LNA"/>
+  <cell value="lna_tb"/>
+  <view value="schematic"/>
+  <thirdPartyTarget value="void"/>
+  <simulatorName value="void"/>
+  <additionalArgs value="void"/>
+ </Environment>
+ <Hb category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <transient_aided_options>
+   <runTransient value="void"/>
+   <detectSteadyState value="void"/>
+   <tstab value="void"/>
+   <runEnvelop_tstab value="void"/>
+   <tstabenvlp_autostead value="void"/>
+   <tstabenvlpstop value="void"/>
+   <saveinit value="void"/>
+   <errpreset value="void"/>
+  </transient_aided_options>
+  <tones>
+   <hb_tones ref="void"/>
+   <freqdivide value="void"/>
+  </tones>
+  <Harmonics>
+   <harmonics_selection value="void"/>
+   <row_harmonics>
+    <from_hz value="void"/>
+    <to_hz value="void"/>
+    <selectharm_afs value="void"/>
+    <selectharm_spectre value="void"/>
+   </row_harmonics>
+   <row_additional_spectre>
+    <maximorder_spectre value="void"/>
+    <axisbw_spectre value="void"/>
+    <minialiasorder_spectre value="void"/>
+   </row_additional_spectre>
+   <row_additional_afs>
+    <maximorder_afs value="void"/>
+   </row_additional_afs>
+   <harmonic_table ref="void"/>
+  </Harmonics>
+  <oscillators enabled="false">
+   <oscPos value="void"/>
+   <oscNeg value="void"/>
+   <ControlSource value="void"/>
+   <oscic value="void"/>
+  </oscillators>
+  <sweeps enabled="false">
+   <Sweep_Variable select="Design_Variable">
+    <Design_Variable>
+     <variablename value="void"/>
+    </Design_Variable>
+    <Temperature>
+     <tfreq value="void"/>
+    </Temperature>
+    <Component_Parameter>
+     <comp value="void"/>
+     <compparam value="void"/>
+    </Component_Parameter>
+    <Model_Parameter>
+     <mod value="void"/>
+     <modelparam value="void"/>
+    </Model_Parameter>
+   </Sweep_Variable>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepvarBox>
+    <Sweep_Type select="Linear">
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepvarBox>
+   <values value="void" enabled="false"/>
+  </sweeps>
+  <Dynamic_Parameters enabled="false">
+   <HbDParamsOptions>
+    <paramOption select="Parameter_Vector_Set">
+     <Parameter_Vector_Set>
+      <params values=""/>
+     </Parameter_Vector_Set>
+     <Parameter_File>
+      <param value="void"/>
+      <paramFileName value="void"/>
+     </Parameter_File>
+    </paramOption>
+   </HbDParamsOptions>
+  </Dynamic_Parameters>
+  <options>
+   <Convergence>
+    <Harmonic_Balance_parameters>
+     <maxperiods value="void"/>
+     <itres value="void"/>
+    </Harmonic_Balance_parameters>
+    <Initial_condition_parameters>
+     <ic value="void"/>
+     <skipdc value="void"/>
+     <readic value="void"/>
+    </Initial_condition_parameters>
+    <Convergence_parameters>
+     <readns value="void"/>
+     <useprevic value="void"/>
+     <cmin value="void"/>
+    </Convergence_parameters>
+   </Convergence>
+   <Accuracy>
+    <Time_step_parameters>
+     <maxstep value="void"/>
+    </Time_step_parameters>
+    <Integration_method_parameters>
+     <tstabmethod value="void"/>
+     <tstabmethod_solidosim value="void"/>
+    </Integration_method_parameters>
+   </Accuracy>
+   <outputBox>
+    <Annotation_parameters>
+     <annotate value="void"/>
+    </Annotation_parameters>
+    <Output_parameters>
+     <save value="void"/>
+     <nestlvl value="void"/>
+     <compression value="void"/>
+    </Output_parameters>
+   </outputBox>
+   <Reuse>
+    <State_file_parameters_afs>
+     <writehbpss value="void"/>
+     <readhbpss value="void"/>
+    </State_file_parameters_afs>
+    <State_file_parameters_spectre>
+     <writehb value="void"/>
+     <readhb value="void"/>
+     <selharmwrite value="void"/>
+    </State_file_parameters_spectre>
+    <tstab_parameters>
+     <saveclock value="void"/>
+     <saveperiod value="void"/>
+     <savetime value="void"/>
+     <savefile value="void"/>
+     <recover value="void"/>
+    </tstab_parameters>
+   </Reuse>
+   <Misc>
+    <Restart_parameters>
+     <restart value="void"/>
+    </Restart_parameters>
+    <Compression_analysis_parameters>
+     <xdbsteps value="void"/>
+     <xdbmax value="void"/>
+     <xdbstart value="void"/>
+     <xdbtol value="void"/>
+    </Compression_analysis_parameters>
+    <LSS_output>
+     <lsspfile value="void"/>
+     <lssdatafmt value="void"/>
+     <lssdatatype value="void"/>
+    </LSS_output>
+    <kickosc value="void"/>
+    <additionalParametersBox>
+     <_addlArgs value="void"/>
+    </additionalParametersBox>
+   </Misc>
+  </options>
+ </Hb>
+ <HbAc category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmvec value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+    <Select_from_Range>
+     <RangeHorizGroup>
+      <fromHz value="void"/>
+      <toHz value="void"/>
+      <maxOrder value="void"/>
+     </RangeHorizGroup>
+     <sidebands_selected value="void"/>
+    </Select_from_Range>
+   </Sidebands>
+  </sidebandsBox>
+  <specialAnalysesBox>
+   <Special_Analyses>
+    <Sampled>
+     <sampledSection>
+      <sampledPlaceHolder value="void"/>
+      <signalBox>
+       <signal select="Probe">
+        <Voltage>
+         <sampledNet1 value="void"/>
+         <sampledNet2 value="void"/>
+        </Voltage>
+        <Probe>
+         <sampledProbe value="void"/>
+        </Probe>
+       </signal>
+      </signalBox>
+      <thresholdvalue value="void"/>
+      <crossingdirection value="void"/>
+      <optionalParamsBox>
+       <maxsamples value="void"/>
+       <extrasampletimepoints values=""/>
+      </optionalParamsBox>
+     </sampledSection>
+    </Sampled>
+   </Special_Analyses>
+  </specialAnalysesBox>
+  <options>
+   <Convergence_parameters>
+    <relative_tolerance value="void"/>
+    <tolerance value="void"/>
+    <resgmrescycle value="void"/>
+    <hbprecond_solver value="void"/>
+   </Convergence_parameters>
+   <Annotation_parameters>
+    <annotate value="void"/>
+   </Annotation_parameters>
+   <Output_parameters>
+    <freqaxis value="void"/>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </Output_parameters>
+   <additionalParametersBox>
+    <_addlArgs value="void"/>
+   </additionalParametersBox>
+  </options>
+ </HbAc>
+ <HbNoise category="Analyses" id="0" enabled="false">
+  <analysis_name value="void"/>
+  <Multiple_hbnoise value="void"/>
+  <options>
+   <Convergence_parameters>
+    <relative_tolerance value="void"/>
+    <tolerance value="void"/>
+    <resgmrescycle value="void"/>
+    <hbprecond_solver value="void"/>
+   </Convergence_parameters>
+   <Annotation_parameters>
+    <annotate value="void"/>
+   </Annotation_parameters>
+   <Output_parameters>
+    <stimuli value="void"/>
+    <save value="void"/>
+    <nestlvl value="void"/>
+    <saveallsidebands value="void"/>
+    <lorentzian value="void"/>
+   </Output_parameters>
+   <additionalParametersBox>
+    <_addlArgs value="void"/>
+   </additionalParametersBox>
+  </options>
+ </HbNoise>
+ <HbNoiseInstance category="Analyses" id="0">
+  <name value="hbnoise1"/>
+  <summary value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmvec value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+    <Select_from_Range1>
+     <RangeHorizGroup1>
+      <fromHz1 value="void"/>
+      <toHz1 value="void"/>
+      <maxOrder1 value="void"/>
+     </RangeHorizGroup1>
+     <sidebands_selected value="void"/>
+    </Select_from_Range1>
+   </Sidebands>
+  </sidebandsBox>
+  <noiseTypeBox>
+   <NoiseType select="TimeAverage">
+    <TimeAverage>
+     <noiseout value="USB"/>
+     <separateNoiseTimeAverage value="void"/>
+    </TimeAverage>
+    <Sampled_Jitter>
+     <sampledPlaceHolder value="void"/>
+     <sampleRatio value="void"/>
+     <sampledMeasurementPlaceHolder value="void"/>
+    </Sampled_Jitter>
+   </NoiseType>
+  </noiseTypeBox>
+  <noise_figure>
+   <Noise_figure value="void"/>
+   <Output>
+    <outputNoise select="Probe">
+     <Voltage>
+      <pos_node value="void"/>
+      <neg_node value="void"/>
+     </Voltage>
+     <Probe>
+      <output_node value="void"/>
+     </Probe>
+    </outputNoise>
+   </Output>
+   <inputBox>
+    <inputNoise select="Port">
+     <Voltage>
+      <input_voltage value="void"/>
+     </Voltage>
+     <Current>
+      <input_current value="void"/>
+     </Current>
+     <Port>
+      <input_port value="void"/>
+     </Port>
+     <None/>
+    </inputNoise>
+   </inputBox>
+   <reference_side_band>
+    <reference_side_band_type select="Enter_in_field">
+     <Enter_in_field>
+      <refsideband value="void"/>
+     </Enter_in_field>
+     <Select_from_Range2>
+      <RangeHorizGroup2>
+       <fromHz2 value="void"/>
+       <toHz2 value="void"/>
+       <maxOrder2 value="void"/>
+      </RangeHorizGroup2>
+      <ref_sidebands_selected value="void"/>
+      <rangeTable2 value="void"/>
+     </Select_from_Range2>
+    </reference_side_band_type>
+   </reference_side_band>
+  </noise_figure>
+ </HbNoiseInstance>
+ <HbSp category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <Select_ports>
+   <ports ref="void"/>
+   <harmsvec value="void"/>
+  </Select_ports>
+  <noiseBox>
+   <Noise>
+    <yes>
+     <placeholder value="void"/>
+     <maxiumum_sideband value="void"/>
+    </yes>
+    <no>
+     <placeholder value="void"/>
+    </no>
+   </Noise>
+  </noiseBox>
+  <options>
+   <Convergence_parameters>
+    <relative_tolerance value="void"/>
+    <tolerance value="void"/>
+    <gear_order value="void"/>
+    <solver value="void"/>
+    <resgmrescycle value="void"/>
+    <hbprecond_solver value="void"/>
+   </Convergence_parameters>
+   <Annotation_parameters>
+    <annotate value="void"/>
+   </Annotation_parameters>
+   <Output_parameters>
+    <freqaxis value="void"/>
+    <file value="void"/>
+    <datafmt value="void"/>
+    <datatype value="void"/>
+   </Output_parameters>
+   <additionalParametersBox>
+    <_addlArgs value="void"/>
+   </additionalParametersBox>
+  </options>
+ </HbSp>
+ <HbStb category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <probeBox>
+   <probe value="void"/>
+   <localgnd value="void"/>
+  </probeBox>
+  <options>
+   <convergenceBox>
+    <relative_tolerance value="void"/>
+    <tolerance value="void"/>
+    <gear_order value="void"/>
+    <solver value="void"/>
+    <resgmrescycle value="void"/>
+    <hbprecond_solver value="void"/>
+    <oscsolver value="void"/>
+   </convergenceBox>
+   <Annotation_parameters>
+    <annotate value="void"/>
+   </Annotation_parameters>
+   <outputBox>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </outputBox>
+   <additionalParametersBox>
+    <_addlArgs value="void"/>
+   </additionalParametersBox>
+  </options>
+ </HbStb>
+ <HbXf category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmvec value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+    <Select_from_Range>
+     <RangeHorizGroup>
+      <fromHz value="void"/>
+      <toHz value="void"/>
+      <maxOrder value="void"/>
+     </RangeHorizGroup>
+     <sidebands_selected value="void"/>
+    </Select_from_Range>
+   </Sidebands>
+  </sidebandsBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <specialAnalysesBox>
+   <Special_Analyses>
+    <Sampled>
+     <sampledSection>
+      <sampledPlaceHolder value="void"/>
+      <signalBox>
+       <signal select="Probe">
+        <Voltage>
+         <sampledNet1 value="void"/>
+         <sampledNet2 value="void"/>
+        </Voltage>
+        <Probe>
+         <sampledProbe value="void"/>
+        </Probe>
+       </signal>
+      </signalBox>
+      <thresholdvalue value="void"/>
+      <crossingdirection value="void"/>
+      <optionalParamsBox>
+       <maxsamples value="void"/>
+       <extrasampletimepoints values=""/>
+      </optionalParamsBox>
+     </sampledSection>
+    </Sampled>
+   </Special_Analyses>
+  </specialAnalysesBox>
+  <options>
+   <Convergence_parameters>
+    <relative_tolerance value="void"/>
+    <tolerance value="void"/>
+    <gear_order value="void"/>
+    <solver value="void"/>
+    <resgmrescycle value="void"/>
+    <hbprecond_solver value="void"/>
+   </Convergence_parameters>
+   <Annotation_parameters>
+    <annotate value="void"/>
+   </Annotation_parameters>
+   <Output_parameters>
+    <stimuli value="void"/>
+    <freqaxis value="void"/>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </Output_parameters>
+   <additionalParametersBox>
+    <_addlArgs value="void"/>
+   </additionalParametersBox>
+  </options>
+ </HbXf>
+ <IncludePath category="Environment" id="0">
+  <fname value="$TANNER_DESIGN_DIR"/>
+ </IncludePath>
+ <Info category="Info Analyses" id="0">
+  <name value="designParamVals"/>
+  <infoPlaceHolder value="void"/>
+  <save value="void"/>
+  <what value="parameters"/>
+  <where value="rawfile"/>
+  <file value="void"/>
+  <extremes value="void"/>
+  <others value="void"/>
+ </Info>
+ <Info category="Info Analyses" id="1" enabled="false">
+  <name value="modelParameter"/>
+  <infoPlaceHolder value="void"/>
+  <save value="void"/>
+  <what value="models"/>
+  <where value="rawfile"/>
+  <file value="void"/>
+  <extremes value="void"/>
+  <others value="void"/>
+ </Info>
+ <Info category="Info Analyses" id="2" enabled="false">
+  <name value="element"/>
+  <infoPlaceHolder value="void"/>
+  <save value="void"/>
+  <what value="inst"/>
+  <where value="rawfile"/>
+  <file value="void"/>
+  <extremes value="void"/>
+  <others value="void"/>
+ </Info>
+ <Info category="Info Analyses" id="3">
+  <name value="asserts"/>
+  <infoPlaceHolder value="void"/>
+  <save value="void"/>
+  <what value="assert"/>
+  <where value="rawfile"/>
+  <file value="void"/>
+  <extremes value="void"/>
+  <others value="void"/>
+ </Info>
+ <Library category="Models" id="0">
+  <fname value="$Gen250_ModelPath/afs/generic_250nm.scs"/>
+  <section value="TT"/>
+ </Library>
+ <Library category="Models" id="1">
+  <fname value="$Gen250_ModelPath/afs/global.scs"/>
+  <section value="sig3"/>
+ </Library>
+ <Noise category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweepvarBox>
+   <Sweep_Variable select="Frequency">
+    <Frequency>
+     <placeHolder value="True"/>
+    </Frequency>
+    <Temperature>
+     <tfreq value="void"/>
+    </Temperature>
+    <Design_Variable>
+     <dfreq value="void"/>
+     <variablename value="void"/>
+    </Design_Variable>
+    <Component_Parameter>
+     <cfreq value="void"/>
+     <comp value="void"/>
+     <compparam value="void"/>
+    </Component_Parameter>
+    <Model_Parameter>
+     <mfreq value="void"/>
+     <mod value="void"/>
+     <modelparam value="void"/>
+    </Model_Parameter>
+    <None>
+     <nfreq value="void"/>
+    </None>
+   </Sweep_Variable>
+  </sweepvarBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <inputBox enabled="false">
+   <inputNoise select="Port">
+    <Voltage>
+     <input_voltage value="void"/>
+    </Voltage>
+    <Current>
+     <input_current value="void"/>
+    </Current>
+    <Port>
+     <input_port value="void"/>
+    </Port>
+    <None/>
+   </inputNoise>
+  </inputBox>
+  <separateBox>
+   <separatenoise value="void"/>
+  </separateBox>
+  <options>
+   <State_file>
+    <readns value="void"/>
+    <useprevic value="void"/>
+    <prevoppoint value="void"/>
+   </State_file>
+   <Initial_Condition>
+    <force value="void"/>
+   </Initial_Condition>
+   <Output>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </Output>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <Additional>
+    <additionalParams value="void"/>
+   </Additional>
+  </options>
+ </Noise>
+ <Pac category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmnum value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+    <Select_from_Range>
+     <RangeHorizGroup>
+      <fromHz value="void"/>
+      <toHz value="void"/>
+      <maxOrder value="void"/>
+     </RangeHorizGroup>
+     <rangeTable value="void"/>
+    </Select_from_Range>
+    <Array_of_Coefficients>
+     <coefficentTable value="void"/>
+    </Array_of_Coefficients>
+    <Array_of_Indices>
+     <addIndices values=""/>
+     <arrayIndices value="void"/>
+    </Array_of_Indices>
+   </Sidebands>
+  </sidebandsBox>
+  <specialAnalysesBox>
+   <Special_Analyses>
+    <Modulated>
+     <modulatedSection>
+      <modInputBox>
+       <ModInputType select="SSB">
+        <SSB>
+         <ssbPlaceHolder value="True"/>
+         <moduppersideband value="0"/>
+        </SSB>
+        <SSB_AM_PM>
+         <ssbampmPlaceHolder value="void"/>
+         <inmodharmnum value="void"/>
+        </SSB_AM_PM>
+       </ModInputType>
+      </modInputBox>
+      <outmodharmvec values="1"/>
+     </modulatedSection>
+    </Modulated>
+    <Sampled>
+     <sampledSection>
+      <sampledPlaceHolder value="void"/>
+      <signalBox>
+       <signal select="Probe">
+        <Voltage>
+         <sampledNet1 value="void"/>
+         <sampledNet2 value="void"/>
+        </Voltage>
+        <Probe>
+         <sampledProbe value="void"/>
+        </Probe>
+       </signal>
+      </signalBox>
+      <thresholdvalue value="void"/>
+      <crossingdirection value="void"/>
+      <optionalParamsBox>
+       <maxsamples value="void"/>
+       <extrasampletimepoints values=""/>
+      </optionalParamsBox>
+     </sampledSection>
+    </Sampled>
+   </Special_Analyses>
+  </specialAnalysesBox>
+  <options>
+   <outputBox>
+    <freqaxis value="void"/>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </outputBox>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <additionalParametersBox>
+    <_addlArgs value="void"/>
+   </additionalParametersBox>
+  </options>
+ </Pac>
+ <Pnoise category="Analyses" id="0" enabled="false">
+  <analysis_name value="void"/>
+  <Multiple_pnoise value="void"/>
+  <options>
+   <convergenceBox>
+    <relative_tolerance value="void"/>
+    <maxsamples value="void"/>
+   </convergenceBox>
+   <outputBox>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </outputBox>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <additionalParametersBox>
+    <_addlArgs value="void"/>
+   </additionalParametersBox>
+  </options>
+ </Pnoise>
+ <PnoiseInstance category="Analyses" id="0">
+  <name value="pnoise1"/>
+  <summary value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmnum value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <pnoisemethod value="void"/>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+   </Sidebands>
+  </sidebandsBox>
+  <noiseTypeBox>
+   <NoiseType select="TimeAverage">
+    <TimeAverage>
+     <noiseout value="USB"/>
+     <separateNoiseTimeAverage value="void"/>
+    </TimeAverage>
+    <Sampled_Jitter>
+     <sampledPlaceHolder value="void"/>
+     <sampleRatio value="void"/>
+     <sampledMeasurementPlaceHolder value="void"/>
+    </Sampled_Jitter>
+   </NoiseType>
+  </noiseTypeBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <inputBox enabled="false">
+   <inputBox2>
+    <inputNoise select="Port">
+     <Voltage>
+      <input_voltage value="void"/>
+     </Voltage>
+     <Current>
+      <input_current value="void"/>
+     </Current>
+     <Port>
+      <input_port value="void"/>
+     </Port>
+     <None/>
+    </inputNoise>
+   </inputBox2>
+   <refsideband value="void"/>
+  </inputBox>
+ </PnoiseInstance>
+ <PnoiseInstance category="Analyses" id="1" enabled="false">
+  <name value="pnoise2"/>
+  <summary value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmnum value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <pnoisemethod value="void"/>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+   </Sidebands>
+  </sidebandsBox>
+  <noiseTypeBox>
+   <NoiseType select="TimeAverage">
+    <TimeAverage>
+     <noiseout value="USB"/>
+     <separateNoiseTimeAverage value="void"/>
+    </TimeAverage>
+    <Sampled_Jitter>
+     <sampledPlaceHolder value="void"/>
+     <sampleRatio value="void"/>
+     <sampledMeasurementPlaceHolder value="void"/>
+    </Sampled_Jitter>
+   </NoiseType>
+  </noiseTypeBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <inputBox enabled="false">
+   <inputBox2>
+    <inputNoise select="Port">
+     <Voltage>
+      <input_voltage value="void"/>
+     </Voltage>
+     <Current>
+      <input_current value="void"/>
+     </Current>
+     <Port>
+      <input_port value="void"/>
+     </Port>
+     <None/>
+    </inputNoise>
+   </inputBox2>
+   <refsideband value="void"/>
+  </inputBox>
+ </PnoiseInstance>
+ <PnoiseInstance category="Analyses" id="2" enabled="false">
+  <name value="pnoise3"/>
+  <summary value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmnum value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <pnoisemethod value="void"/>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+   </Sidebands>
+  </sidebandsBox>
+  <noiseTypeBox>
+   <NoiseType select="TimeAverage">
+    <TimeAverage>
+     <noiseout value="USB"/>
+     <separateNoiseTimeAverage value="void"/>
+    </TimeAverage>
+    <Sampled_Jitter>
+     <sampledPlaceHolder value="void"/>
+     <sampleRatio value="void"/>
+     <sampledMeasurementPlaceHolder value="void"/>
+    </Sampled_Jitter>
+   </NoiseType>
+  </noiseTypeBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <inputBox enabled="false">
+   <inputBox2>
+    <inputNoise select="Port">
+     <Voltage>
+      <input_voltage value="void"/>
+     </Voltage>
+     <Current>
+      <input_current value="void"/>
+     </Current>
+     <Port>
+      <input_port value="void"/>
+     </Port>
+     <None/>
+    </inputNoise>
+   </inputBox2>
+   <refsideband value="void"/>
+  </inputBox>
+ </PnoiseInstance>
+ <PnoiseInstance category="Analyses" id="3" enabled="false">
+  <name value="pnoise4"/>
+  <summary value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmnum value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <pnoisemethod value="void"/>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+   </Sidebands>
+  </sidebandsBox>
+  <noiseTypeBox>
+   <NoiseType select="TimeAverage">
+    <TimeAverage>
+     <noiseout value="USB"/>
+     <separateNoiseTimeAverage value="void"/>
+    </TimeAverage>
+    <Sampled_Jitter>
+     <sampledPlaceHolder value="void"/>
+     <sampleRatio value="void"/>
+     <sampledMeasurementPlaceHolder value="void"/>
+    </Sampled_Jitter>
+   </NoiseType>
+  </noiseTypeBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <inputBox enabled="false">
+   <inputBox2>
+    <inputNoise select="Port">
+     <Voltage>
+      <input_voltage value="void"/>
+     </Voltage>
+     <Current>
+      <input_current value="void"/>
+     </Current>
+     <Port>
+      <input_port value="void"/>
+     </Port>
+     <None/>
+    </inputNoise>
+   </inputBox2>
+   <refsideband value="void"/>
+  </inputBox>
+ </PnoiseInstance>
+ <PnoiseInstance category="Analyses" id="4" enabled="false">
+  <name value="pnoise5"/>
+  <summary value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmnum value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <pnoisemethod value="void"/>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+   </Sidebands>
+  </sidebandsBox>
+  <noiseTypeBox>
+   <NoiseType select="TimeAverage">
+    <TimeAverage>
+     <noiseout value="USB"/>
+     <separateNoiseTimeAverage value="void"/>
+    </TimeAverage>
+    <Sampled_Jitter>
+     <sampledPlaceHolder value="void"/>
+     <sampleRatio value="void"/>
+     <sampledMeasurementPlaceHolder value="void"/>
+    </Sampled_Jitter>
+   </NoiseType>
+  </noiseTypeBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <inputBox enabled="false">
+   <inputBox2>
+    <inputNoise select="Port">
+     <Voltage>
+      <input_voltage value="void"/>
+     </Voltage>
+     <Current>
+      <input_current value="void"/>
+     </Current>
+     <Port>
+      <input_port value="void"/>
+     </Port>
+     <None/>
+    </inputNoise>
+   </inputBox2>
+   <refsideband value="void"/>
+  </inputBox>
+ </PnoiseInstance>
+ <PnoiseInstance category="Analyses" id="5" enabled="false">
+  <name value="pnoise6"/>
+  <summary value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmnum value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <pnoisemethod value="void"/>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+   </Sidebands>
+  </sidebandsBox>
+  <noiseTypeBox>
+   <NoiseType select="TimeAverage">
+    <TimeAverage>
+     <noiseout value="USB"/>
+     <separateNoiseTimeAverage value="void"/>
+    </TimeAverage>
+    <Sampled_Jitter>
+     <sampledPlaceHolder value="void"/>
+     <sampleRatio value="void"/>
+     <sampledMeasurementPlaceHolder value="void"/>
+    </Sampled_Jitter>
+   </NoiseType>
+  </noiseTypeBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <inputBox enabled="false">
+   <inputBox2>
+    <inputNoise select="Port">
+     <Voltage>
+      <input_voltage value="void"/>
+     </Voltage>
+     <Current>
+      <input_current value="void"/>
+     </Current>
+     <Port>
+      <input_port value="void"/>
+     </Port>
+     <None/>
+    </inputNoise>
+   </inputBox2>
+   <refsideband value="void"/>
+  </inputBox>
+ </PnoiseInstance>
+ <Pss category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <fundToneBox>
+   <Beat_Type select="Beat_Frequency">
+    <Beat_Frequency>
+     <fund value="void"/>
+    </Beat_Frequency>
+    <Beat_Period>
+     <period value="void"/>
+    </Beat_Period>
+   </Beat_Type>
+  </fundToneBox>
+  <outputHarmonicsBox>
+   <Output_Harmonics select="Number_of_Harmonics">
+    <Number_of_Harmonics>
+     <harms value="void"/>
+    </Number_of_Harmonics>
+    <Select_from_Range>
+     <RangeHorizGroup>
+      <fromHz value="void"/>
+      <toHz value="void"/>
+      <maxOrder value="void"/>
+     </RangeHorizGroup>
+     <rangeTable value="void"/>
+    </Select_from_Range>
+    <Array_of_Coefficients>
+     <coefficentTable value="void"/>
+    </Array_of_Coefficients>
+    <Array_of_Indices>
+     <addIndices values=""/>
+     <arrayIndices value="void"/>
+    </Array_of_Indices>
+   </Output_Harmonics>
+  </outputHarmonicsBox>
+  <miscBox>
+   <errpreset value="void"/>
+   <runTransient value="void"/>
+   <autosteady value="void"/>
+   <tstab value="void"/>
+   <saveinit value="void"/>
+  </miscBox>
+  <oscillatorBox enabled="false">
+   <oscPos value="void"/>
+   <oscNeg value="void"/>
+   <controlSource value="void"/>
+  </oscillatorBox>
+  <sweepvarBox enabled="false">
+   <sweeps value="void"/>
+  </sweepvarBox>
+  <options>
+   <convergenceTab>
+    <initialConditionBox>
+     <skipdc value="void"/>
+     <readic value="void"/>
+    </initialConditionBox>
+    <convergenceBox>
+     <readns value="void"/>
+     <useprevic value="void"/>
+     <cmin value="void"/>
+    </convergenceBox>
+    <newtonBox>
+     <maxiters value="void"/>
+    </newtonBox>
+   </convergenceTab>
+   <accuracyTab>
+    <integrationMethodBox>
+     <method value="void"/>
+     <method_solidosim value="void"/>
+     <tstabmethod value="void"/>
+     <tstabmethod_solidosim value="void"/>
+     <maxacfreq value="void"/>
+    </integrationMethodBox>
+   </accuracyTab>
+   <outputTab>
+    <outputBox>
+     <save value="void"/>
+     <nestlvl value="void"/>
+     <ppv value="void"/>
+    </outputBox>
+   </outputTab>
+   <reuseTab>
+    <stateFileBox>
+     <write value="void"/>
+     <writefinal value="void"/>
+    </stateFileBox>
+    <tstab_parameters>
+     <saveclock value="void"/>
+     <saveperiod value="void"/>
+     <savetime value="void"/>
+     <savefile value="void"/>
+     <recover value="void"/>
+    </tstab_parameters>
+   </reuseTab>
+   <miscTab>
+    <timeStepBox>
+     <maxstep value="void"/>
+    </timeStepBox>
+    <simulationIntervalBox>
+     <tstart value="void"/>
+    </simulationIntervalBox>
+    <Annotation_Parameters>
+     <annotate value="void"/>
+    </Annotation_Parameters>
+    <additionalParametersBox>
+     <_addlArgs value="void"/>
+    </additionalParametersBox>
+    <otherBox>
+     <highq value="void"/>
+     <autokick value="void"/>
+     <kickosc value="void"/>
+     <restart value="void"/>
+    </otherBox>
+   </miscTab>
+  </options>
+ </Pss>
+ <PssSweepInstance category="Analyses" id="0" enabled="false">
+  <Sweep_Variable select="Design_Variable">
+   <Design_Variable>
+    <variablename value="void"/>
+   </Design_Variable>
+   <Temperature>
+    <tfreq value="void"/>
+   </Temperature>
+   <Component_Parameter>
+    <comp value="void"/>
+    <compparam value="void"/>
+   </Component_Parameter>
+   <Model_Parameter>
+    <mod value="void"/>
+    <modelparam value="void"/>
+   </Model_Parameter>
+  </Sweep_Variable>
+  <sweepRange>
+   <Sweep_Range select="Start_Stop">
+    <Start_Stop>
+     <start value="void"/>
+     <stop value="void"/>
+    </Start_Stop>
+    <Center_Span>
+     <center value="void"/>
+     <span value="void"/>
+    </Center_Span>
+   </Sweep_Range>
+  </sweepRange>
+  <sweepvarBox>
+   <Sweep_Type select="Linear">
+    <Linear>
+     <Linear_Type select="Step_Size">
+      <Step_Size>
+       <step value="void"/>
+      </Step_Size>
+      <Number_of_Steps>
+       <lin value="void"/>
+      </Number_of_Steps>
+     </Linear_Type>
+    </Linear>
+    <Logarithmic>
+     <Log_Type select="Points_Per_Decade">
+      <Points_Per_Decade>
+       <dec value="void"/>
+      </Points_Per_Decade>
+      <Number_of_Steps>
+       <log value="void"/>
+      </Number_of_Steps>
+     </Log_Type>
+    </Logarithmic>
+   </Sweep_Type>
+  </sweepvarBox>
+  <values value="void" enabled="false"/>
+ </PssSweepInstance>
+ <PssSweepInstance category="Analyses" id="1" enabled="false">
+  <Sweep_Variable select="Design_Variable">
+   <Design_Variable>
+    <variablename value="void"/>
+   </Design_Variable>
+   <Temperature>
+    <tfreq value="void"/>
+   </Temperature>
+   <Component_Parameter>
+    <comp value="void"/>
+    <compparam value="void"/>
+   </Component_Parameter>
+   <Model_Parameter>
+    <mod value="void"/>
+    <modelparam value="void"/>
+   </Model_Parameter>
+  </Sweep_Variable>
+  <sweepRange>
+   <Sweep_Range select="Start_Stop">
+    <Start_Stop>
+     <start value="void"/>
+     <stop value="void"/>
+    </Start_Stop>
+    <Center_Span>
+     <center value="void"/>
+     <span value="void"/>
+    </Center_Span>
+   </Sweep_Range>
+  </sweepRange>
+  <sweepvarBox>
+   <Sweep_Type select="Linear">
+    <Linear>
+     <Linear_Type select="Step_Size">
+      <Step_Size>
+       <step value="void"/>
+      </Step_Size>
+      <Number_of_Steps>
+       <lin value="void"/>
+      </Number_of_Steps>
+     </Linear_Type>
+    </Linear>
+    <Logarithmic>
+     <Log_Type select="Points_Per_Decade">
+      <Points_Per_Decade>
+       <dec value="void"/>
+      </Points_Per_Decade>
+      <Number_of_Steps>
+       <log value="void"/>
+      </Number_of_Steps>
+     </Log_Type>
+    </Logarithmic>
+   </Sweep_Type>
+  </sweepvarBox>
+  <values value="void" enabled="false"/>
+ </PssSweepInstance>
+ <PssSweepInstance category="Analyses" id="2" enabled="false">
+  <Sweep_Variable select="Design_Variable">
+   <Design_Variable>
+    <variablename value="void"/>
+   </Design_Variable>
+   <Temperature>
+    <tfreq value="void"/>
+   </Temperature>
+   <Component_Parameter>
+    <comp value="void"/>
+    <compparam value="void"/>
+   </Component_Parameter>
+   <Model_Parameter>
+    <mod value="void"/>
+    <modelparam value="void"/>
+   </Model_Parameter>
+  </Sweep_Variable>
+  <sweepRange>
+   <Sweep_Range select="Start_Stop">
+    <Start_Stop>
+     <start value="void"/>
+     <stop value="void"/>
+    </Start_Stop>
+    <Center_Span>
+     <center value="void"/>
+     <span value="void"/>
+    </Center_Span>
+   </Sweep_Range>
+  </sweepRange>
+  <sweepvarBox>
+   <Sweep_Type select="Linear">
+    <Linear>
+     <Linear_Type select="Step_Size">
+      <Step_Size>
+       <step value="void"/>
+      </Step_Size>
+      <Number_of_Steps>
+       <lin value="void"/>
+      </Number_of_Steps>
+     </Linear_Type>
+    </Linear>
+    <Logarithmic>
+     <Log_Type select="Points_Per_Decade">
+      <Points_Per_Decade>
+       <dec value="void"/>
+      </Points_Per_Decade>
+      <Number_of_Steps>
+       <log value="void"/>
+      </Number_of_Steps>
+     </Log_Type>
+    </Logarithmic>
+   </Sweep_Type>
+  </sweepvarBox>
+  <values value="void" enabled="false"/>
+ </PssSweepInstance>
+ <Pstb category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <probeBox>
+   <probe value="void"/>
+   <localgnd value="void"/>
+  </probeBox>
+  <options>
+   <convergenceBox>
+    <tolerance value="void"/>
+    <gear_order value="void"/>
+    <solver value="void"/>
+    <hbprecond_solver value="void"/>
+    <oscsolver value="void"/>
+   </convergenceBox>
+   <outputBox>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </outputBox>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <additionalParametersBox>
+    <_addlArgs value="void"/>
+   </additionalParametersBox>
+  </options>
+ </Pstb>
+ <Pxf category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweepTypeBox>
+   <sweeptype>
+    <Absolute>
+     <absType value="void"/>
+    </Absolute>
+    <Relative>
+     <relType value="void"/>
+     <relharmnum value="void"/>
+    </Relative>
+   </sweeptype>
+  </sweepTypeBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+     <Single_Point>
+      <freq value="void"/>
+     </Single_Point>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <sidebandsBox>
+   <Sidebands>
+    <Maximum_Sideband>
+     <maxsideband value="void"/>
+    </Maximum_Sideband>
+    <Select_from_Range>
+     <RangeHorizGroup>
+      <fromHz value="void"/>
+      <toHz value="void"/>
+      <maxOrder value="void"/>
+     </RangeHorizGroup>
+     <rangeTable value="void"/>
+    </Select_from_Range>
+    <Array_of_Coefficients>
+     <coefficentTable value="void"/>
+    </Array_of_Coefficients>
+    <Array_of_Indices>
+     <addIndices values=""/>
+     <arrayIndices value="void"/>
+    </Array_of_Indices>
+   </Sidebands>
+  </sidebandsBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <specialAnalysesBox>
+   <Special_Analyses>
+    <Modulated>
+     <modulatedSection>
+      <modInputBox>
+       <ModInputType select="SSB">
+        <SSB>
+         <ssbPlaceHolder value="True"/>
+         <moduppersideband value="0"/>
+        </SSB>
+        <SSB_AM_PM>
+         <ssbampmPlaceHolder value="void"/>
+         <outmodharmnum value="void"/>
+        </SSB_AM_PM>
+       </ModInputType>
+      </modInputBox>
+      <inmodharmvec values="1"/>
+     </modulatedSection>
+    </Modulated>
+    <Sampled>
+     <sampledSection>
+      <sampledPlaceHolder value="void"/>
+      <signalBox>
+       <signal select="Probe">
+        <Voltage>
+         <sampledNet1 value="void"/>
+         <sampledNet2 value="void"/>
+        </Voltage>
+        <Probe>
+         <sampledProbe value="void"/>
+        </Probe>
+       </signal>
+      </signalBox>
+      <thresholdvalue value="void"/>
+      <crossingdirection value="void"/>
+      <optionalParamsBox>
+       <maxsamples value="void"/>
+       <extrasampletimepoints values=""/>
+      </optionalParamsBox>
+     </sampledSection>
+    </Sampled>
+   </Special_Analyses>
+  </specialAnalysesBox>
+  <options>
+   <outputBox>
+    <stimuli value="void"/>
+    <freqaxis value="void"/>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </outputBox>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <additionalParametersBox>
+    <_addlArgs value="void"/>
+   </additionalParametersBox>
+  </options>
+ </Pxf>
+ <SimOptions category="SimOptions" id="0">
+  <High_Performance>
+   <Performance_Accuracy>
+    <extrememode value="void"/>
+    <extremepostlayout value="void"/>
+    <xtoverride value="void"/>
+    <assertflag value="void"/>
+    <enableinfoanalysis value="void"/>
+    <performanceopt value="void"/>
+   </Performance_Accuracy>
+   <Multi_Thread_Options>
+    <multi_thread value="void"/>
+   </Multi_Thread_Options>
+   <Parasitic_Reduction>
+    <parasitic_rcrfmax value="void"/>
+   </Parasitic_Reduction>
+  </High_Performance>
+  <Main>
+   <cmdLineOption value="void"/>
+   <afsmode value="void"/>
+   <maxiters value="void"/>
+   <Tolerance>
+    <reltol value="void"/>
+    <trtol value="void"/>
+    <iabstol value="void"/>
+    <vabstol value="void"/>
+   </Tolerance>
+   <Trim>
+    <rtrim value="void"/>
+    <ctrim value="void"/>
+    <rlargetrim value="void"/>
+    <cground value="void"/>
+   </Trim>
+  </Main>
+  <Algorithm>
+   <gmin value="void"/>
+   <homotopy value="void"/>
+   <ltemethod value="void"/>
+   <method value="void"/>
+  </Algorithm>
+  <Output>
+   <Statistical_Measurements>
+    <autostop value="void"/>
+    <captab value="void"/>
+    <printTranProgress value="void"/>
+    <acct value="void"/>
+    <transienttickmode value="void"/>
+   </Statistical_Measurements>
+   <Progress>
+    <maxwarns value="void"/>
+    <transientprogress value="void"/>
+   </Progress>
+  </Output>
+  <Miscellaneous>
+   <additionalArgs value="void"/>
+   <tnom value="void"/>
+   <delete_cached_data value="void"/>
+   <vadevicelimit value="void"/>
+   <Device_Noise_Generation>
+    <noisermin value="void"/>
+    <noise_all value="void"/>
+    <noiseon values=""/>
+    <noiseoff values=""/>
+   </Device_Noise_Generation>
+   <abortonuncommontopology value="void"/>
+   <abstol value="void"/>
+   <afsdonominal value="void"/>
+   <afsdpf value="void"/>
+   <afsdpfadddev value="void"/>
+   <afsdpfpfx value="void"/>
+   <afsspf value="void"/>
+   <afsspfaddnet value="void"/>
+   <afsspfdsswap value="void"/>
+   <afsspffixnet value="void"/>
+   <allowduplicatemeasures value="void"/>
+   <assertflag value="void"/>
+   <begindiaggmin value="void"/>
+   <begingmin value="void"/>
+   <biaschk value="void"/>
+   <capthreshold value="void"/>
+   <checklimitfile value="void"/>
+   <checklimitdest value="void"/>
+   <chgtol value="void"/>
+   <classicspice value="void"/>
+   <cmin value="void"/>
+   <cmipath value="void"/>
+   <combine value="void"/>
+   <commondc value="void"/>
+   <compressedOutput value="void"/>
+   <continueonduplicatedmodel value="void"/>
+   <currents value="void"/>
+   <dcmethod value="void"/>
+   <dctimeout value="void"/>
+   <delmax value="void"/>
+   <scale value="void"/>
+   <devicechgtol value="void"/>
+   <devicematrixopt value="void"/>
+   <dlencsdf value="void"/>
+   <dochecklimit value="void"/>
+   <donominal value="void"/>
+   <duplicatemodel value="void"/>
+   <dynamicrange value="void"/>
+   <enable_fracpole value="void"/>
+   <errpreset value="void"/>
+   <fixdanglingnodes value="void"/>
+   <fixnodcpathtognd value="void"/>
+   <fixtopologyresistor value="void"/>
+   <fsdb_compres value="void"/>
+   <fsdb_outputtres value="void"/>
+   <fsdb_outputvres value="void"/>
+   <fsdb_outputires value="void"/>
+   <geartrapratio value="void"/>
+   <ic value="void"/>
+   <ignoremissinginclude value="void"/>
+   <ignoretstep value="void"/>
+   <info value="void"/>
+   <itl1 value="void"/>
+   <itl4 value="void"/>
+   <ktrim value="void"/>
+   <latencyscale value="void"/>
+   <limitinstancename value="void"/>
+   <ltecheck value="void"/>
+   <lteinterpolate value="void"/>
+   <luscalingmode value="void"/>
+   <macmode value="void"/>
+   <maxexp value="void"/>
+   <maxrsd value="void"/>
+   <measfile value="void"/>
+   <merge value="void"/>
+   <minimumresistance value="void"/>
+   <minresfornewstamp value="void"/>
+   <minslope value="void"/>
+   <mismatchlevel value="void"/>
+   <mosdiodegmin value="void"/>
+   <modelmismatch value="void"/>
+   <msolver value="void"/>
+   <msolverdc value="void"/>
+   <nestlvl value="void"/>
+   <notation value="void"/>
+   <optimization value="void"/>
+   <pivrelfactor value="void"/>
+   <pivtol value="void"/>
+   <post value="void"/>
+   <postprocessmeasure value="void"/>
+   <precision value="void"/>
+   <print_conv_info value="void"/>
+   <printfile value="void"/>
+   <printic value="void"/>
+   <pseudotranbegindiaggmin value="void"/>
+   <pseudotranlimiter value="void"/>
+   <pwr value="void"/>
+   <quantities value="void"/>
+   <removevsrc value="void"/>
+   <rforce value="void"/>
+   <runcalcpad value="void"/>
+   <runendval value="void"/>
+   <runningcorners value="void"/>
+   <save value="allpub"/>
+   <saveahdlvars value="void"/>
+   <saveclock value="void"/>
+   <saveperiod value="void"/>
+   <seriesmerge value="void"/>
+   <simkitversion value="void"/>
+   <skipmutualcheck value="void"/>
+   <soft_bin value="void"/>
+   <sortdevicelist value="void"/>
+   <sparselurepivotfreq value="void"/>
+   <strobeperiod value="void"/>
+   <subcktprobelvl value="void"/>
+   <title value="void"/>
+   <tmiage_start value="void"/>
+   <tmiage_stress value="void"/>
+   <toplevel_connection_check value="void"/>
+   <tristateropen value="void"/>
+   <tristatershort value="void"/>
+   <tristatetransitiontime value="void"/>
+   <tristatesourcecontinuous value="void"/>
+   <useacm value="void"/>
+   <usecompiledasrc value="void"/>
+   <usegmresintran value="void"/>
+   <uselumpedmodel value="void"/>
+   <usenodealias value="void"/>
+   <useprobes value="void"/>
+   <veriloga-always-bypass value="void"/>
+   <veriloga-event-expr-tol value="void"/>
+   <veriloga-event-time-tol value="void"/>
+   <veriloga-event-tol-mode value="void"/>
+   <veriloga-smoothing-constant value="void"/>
+   <verilogatopcheck value="void"/>
+   <vboxflag value="void"/>
+   <voltageltefactor value="void"/>
+   <vntol value="void"/>
+  </Miscellaneous>
+ </SimOptions>
+ <Sp category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <portsBox>
+   <ports values=""/>
+  </portsBox>
+  <sweepvarBox>
+   <Sweep_Variable select="Frequency">
+    <Frequency>
+     <placeHolder value="True"/>
+    </Frequency>
+    <Temperature>
+     <tfreq value="void"/>
+    </Temperature>
+    <Design_Variable>
+     <dfreq value="void"/>
+     <variablename value="void"/>
+    </Design_Variable>
+    <Component_Parameter>
+     <cfreq value="void"/>
+     <comp value="void"/>
+     <compparam value="void"/>
+    </Component_Parameter>
+    <Model_Parameter>
+     <mfreq value="void"/>
+     <mod value="void"/>
+     <modelparam value="void"/>
+    </Model_Parameter>
+    <None>
+     <nfreq value="void"/>
+    </None>
+   </Sweep_Variable>
+  </sweepvarBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <noiseBox>
+   <Noise select="No">
+    <Yes>
+     <oprobe value="void"/>
+     <iprobe value="void"/>
+    </Yes>
+    <No>
+     <noiseNoPlaceHolder value="void"/>
+    </No>
+   </Noise>
+  </noiseBox>
+  <options>
+   <State_file>
+    <readns value="void"/>
+    <useprevic value="void"/>
+   </State_file>
+   <Output>
+    <file value="void"/>
+    <datafmt value="void"/>
+    <datatype value="void"/>
+    <paramtype value="void"/>
+   </Output>
+   <Annotation>
+    <annotate value="void"/>
+   </Annotation>
+   <Additional>
+    <_addlArgs value="void"/>
+   </Additional>
+  </options>
+ </Sp>
+ <Stb category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweepvarBox>
+   <Sweep_Variable select="Frequency">
+    <Frequency>
+     <placeHolder value="True"/>
+    </Frequency>
+    <Temperature>
+     <tfreq value="void"/>
+    </Temperature>
+    <Design_Variable>
+     <dfreq value="void"/>
+     <variablename value="void"/>
+    </Design_Variable>
+    <Component_Parameter>
+     <cfreq value="void"/>
+     <comp value="void"/>
+     <compparam value="void"/>
+    </Component_Parameter>
+    <Model_Parameter>
+     <mfreq value="void"/>
+     <mod value="void"/>
+     <modelparam value="void"/>
+    </Model_Parameter>
+    <None>
+     <nfreq value="void"/>
+    </None>
+   </Sweep_Variable>
+  </sweepvarBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <probeBox>
+   <modetype value="void"/>
+   <probe values=""/>
+   <localgnd value="void"/>
+  </probeBox>
+  <reportAutoGenMeas value="void"/>
+  <options>
+   <State_file>
+    <readns value="void"/>
+    <useprevic value="void"/>
+    <prevoppoint value="void"/>
+   </State_file>
+   <Output>
+    <save value="void"/>
+    <nestlvl value="void"/>
+    <oppoint value="void"/>
+   </Output>
+   <Convergence>
+    <restart value="void"/>
+   </Convergence>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <Additional>
+    <_addlArgs value="void"/>
+   </Additional>
+  </options>
+ </Stb>
+ <Temp category="Parameters" id="0">
+  <value value="27"/>
+ </Temp>
+ <Tran category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <stop value="void"/>
+  <errpreset value="void"/>
+  <trannoiseBox enabled="false">
+   <noisefmax value="void"/>
+   <noisefmin value="void"/>
+   <noiseseed value="void"/>
+   <noisescale value="void"/>
+   <noisetstart value="void"/>
+  </trannoiseBox>
+  <dynamicparamBox enabled="false">
+   <paramOption select="Parameter_Vector_Set">
+    <Parameter_Vector_Set>
+     <params values=""/>
+    </Parameter_Vector_Set>
+    <Parameter_File>
+     <param value="void"/>
+     <paramFileName value="void"/>
+    </Parameter_File>
+   </paramOption>
+  </dynamicparamBox>
+  <options>
+   <time_stepBox>
+    <simParamsBox>
+     <start value="void"/>
+     <outputstart value="void"/>
+    </simParamsBox>
+    <timeParamsBox>
+     <step value="void"/>
+     <maxstep value="void"/>
+     <minstep value="void"/>
+    </timeParamsBox>
+   </time_stepBox>
+   <algorithmBox>
+    <initialConditionsBox>
+     <skipdc value="void"/>
+     <readic value="void"/>
+    </initialConditionsBox>
+    <initialConditionOscillatorBox>
+     <linearic value="void"/>
+     <oscfreq value="void"/>
+    </initialConditionOscillatorBox>
+    <convergenceBox>
+     <readns value="void"/>
+     <useprevic value="void"/>
+     <cmin value="void"/>
+    </convergenceBox>
+    <integrationBox>
+     <method value="void"/>
+     <method_solidosim value="void"/>
+    </integrationBox>
+    <newtonBox>
+     <maxiters value="void"/>
+     <maxiters_dc value="void"/>
+    </newtonBox>
+   </algorithmBox>
+   <state_fileBox>
+    <statefileParamsBox>
+     <write value="void"/>
+     <writefinal value="void"/>
+    </statefileParamsBox>
+    <saverestartBox>
+     <saveclock value="void"/>
+     <saveperiod value="void"/>
+     <savetime values=""/>
+     <savefile value="void"/>
+     <recover value="void"/>
+     <savepercent value="void"/>
+     <cleanup value="void"/>
+    </saverestartBox>
+   </state_fileBox>
+   <outputBox>
+    <outputParamsBox>
+     <save value="void"/>
+     <nestlvl value="void"/>
+    </outputParamsBox>
+    <strobingBox>
+     <skipstart value="void"/>
+     <skipstop value="void"/>
+     <skipcount value="void"/>
+     <strobeperiod value="void"/>
+     <strobeoutput value="void"/>
+     <strobedelay value="void"/>
+     <strobetimes value="void"/>
+     <title value="void"/>
+     <trtol value="void"/>
+     <wavefile value="void"/>
+    </strobingBox>
+    <finalopptBox>
+     <saveop value="void"/>
+     <infotimes values=""/>
+     <infonames values=""/>
+     <actimes values=""/>
+     <acnames values=""/>
+    </finalopptBox>
+   </outputBox>
+   <miscBox>
+    <Annotation_Parameters>
+     <annotate value="void"/>
+    </Annotation_Parameters>
+    <Additional>
+     <_addlArgs value="void"/>
+    </Additional>
+   </miscBox>
+  </options>
+ </Tran>
+ <Xf category="Analyses" id="0" enabled="false">
+  <name value="void"/>
+  <analysis_name value="void"/>
+  <sweepvarBox>
+   <Sweep_Variable select="Frequency">
+    <Frequency>
+     <placeHolder value="True"/>
+    </Frequency>
+    <Temperature>
+     <tfreq value="void"/>
+    </Temperature>
+    <Design_Variable>
+     <dfreq value="void"/>
+     <variablename value="void"/>
+    </Design_Variable>
+    <Component_Parameter>
+     <cfreq value="void"/>
+     <comp value="void"/>
+     <compparam value="void"/>
+    </Component_Parameter>
+    <Model_Parameter>
+     <mfreq value="void"/>
+     <mod value="void"/>
+     <modelparam value="void"/>
+    </Model_Parameter>
+    <None>
+     <nfreq value="void"/>
+    </None>
+   </Sweep_Variable>
+  </sweepvarBox>
+  <sweeprangeBox>
+   <sweepRange>
+    <Sweep_Range select="Start_Stop">
+     <Start_Stop>
+      <start value="void"/>
+      <stop value="void"/>
+     </Start_Stop>
+     <Center_Span>
+      <center value="void"/>
+      <span value="void"/>
+     </Center_Span>
+    </Sweep_Range>
+   </sweepRange>
+   <sweepType>
+    <Sweep_Type select="Automatic">
+     <Automatic>
+      <auto value="void"/>
+     </Automatic>
+     <Linear>
+      <Linear_Type select="Step_Size">
+       <Step_Size>
+        <step value="void"/>
+       </Step_Size>
+       <Number_of_Steps>
+        <lin value="void"/>
+       </Number_of_Steps>
+      </Linear_Type>
+     </Linear>
+     <Logarithmic>
+      <Log_Type select="Points_Per_Decade">
+       <Points_Per_Decade>
+        <dec value="void"/>
+       </Points_Per_Decade>
+       <Number_of_Steps>
+        <log value="void"/>
+       </Number_of_Steps>
+      </Log_Type>
+     </Logarithmic>
+    </Sweep_Type>
+   </sweepType>
+   <values value="void" enabled="false"/>
+   <valuesfile value="void" enabled="false"/>
+  </sweeprangeBox>
+  <outputBox>
+   <outputNoise select="Voltage">
+    <Voltage>
+     <pos_node value="void"/>
+     <neg_node value="void"/>
+    </Voltage>
+    <Probe>
+     <output_node value="void"/>
+    </Probe>
+   </outputNoise>
+  </outputBox>
+  <options>
+   <State_file>
+    <readns value="void"/>
+    <useprevic value="void"/>
+   </State_file>
+   <Output>
+    <stimuli value="void"/>
+    <save value="void"/>
+    <nestlvl value="void"/>
+   </Output>
+   <Annotation_Parameters>
+    <annotate value="void"/>
+   </Annotation_Parameters>
+   <Additional>
+    <additionalParams value="void"/>
+   </Additional>
+  </options>
+ </Xf>
+</SchemaDB_XML>

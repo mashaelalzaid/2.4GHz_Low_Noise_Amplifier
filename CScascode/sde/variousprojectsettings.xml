@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='ascii'?>
+<projectsettings version="2">
+  <leftsidedock version="1">
+    <collapsednodes>
+      <collapsed name="Corner Groups" />
+      <collapsed name="Tools" />
+      <collapsed name="Reports" />
+    </collapsednodes>
+  </leftsidedock>
+  <dashboard version="1">
+    <verticalheaders>
+      <header name="Nominal" />
+      <header name="Sweep" />
+    </verticalheaders>
+    <horizontalheaders>
+      <header name="All_Tests" size="150" />
+      <header name="CScascode" size="150" />
+      <header name="CScascode_1" size="150" />
+      <header name="CScascode_2" size="150" />
+      <header name="CScascode_3" size="150" />
+      <header name="CScascode_4" size="150" />
+      <header name="Test" size="150" />
+      <header name="Test_1" size="150" />
+    </horizontalheaders>
+    <disabledcells />
+    <hiddenheaders />
+  </dashboard>
+</projectsettings>

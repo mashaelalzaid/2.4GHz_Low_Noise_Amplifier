@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ascii'?>
+<projectsettings version="2">
+  <dashboard version="1">
+    <verticalheaders>
+      <header name="Nominal" />
+      <header name="Corner_Group" />
+      <header name="Sweep" />
+    </verticalheaders>
+    <horizontalheaders>
+      <header name="All_Tests" size="150" />
+      <header name="lna_tb" size="150" />
+      <header name="lna_tb_1" size="150" />
+      <header name="lna_tb_2" size="150" />
+      <header name="lna_tb_3" size="150" />
+      <header name="lna_tb_4" size="150" />
+      <header name="Test" size="150" />
+      <header name="Test_1" size="150" />
+      <header name="Test_2" size="150" />
+      <header name="Test_3" size="150" />
+      <header name="Test_4" size="150" />
+      <header name="Test_5" size="150" />
+    </horizontalheaders>
+    <disabledcells />
+    <hiddenheaders />
+  </dashboard>
+  <leftsidedock version="1">
+    <collapsednodes />
+  </leftsidedock>
+</projectsettings>
